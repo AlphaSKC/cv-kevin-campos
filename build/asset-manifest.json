@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cv-kevin-campos/build/static/css/main.f855e6bc.css",
+    "main.js": "/cv-kevin-campos/build/static/js/main.7070984d.js",
+    "static/js/453.7db3baaf.chunk.js": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js",
+    "static/media/Me.jpg": "/cv-kevin-campos/build/static/media/Me.4a2c8de5a6d710ed3b93.jpg",
+    "static/media/Bg.svg": "/cv-kevin-campos/build/static/media/Bg.b2eafeaeb01fb7437a1b6fc22f4f411d.svg",
+    "index.html": "/cv-kevin-campos/build/index.html",
+    "main.f855e6bc.css.map": "/cv-kevin-campos/build/static/css/main.f855e6bc.css.map",
+    "main.7070984d.js.map": "/cv-kevin-campos/build/static/js/main.7070984d.js.map",
+    "453.7db3baaf.chunk.js.map": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.7070984d.js"
+  ]
+}
