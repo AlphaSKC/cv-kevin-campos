@@ -69,7 +69,7 @@ export default function Profile() {
                                     }}>
                                         <PhoneIcon sx={{
                                             fontSize: '30px',
-                                            color: '#0066FF',
+                                            color: '#9d00ff',
                                         }} />
                                         <Typography sx={{
                                             fontSize: '20px',
@@ -87,7 +87,7 @@ export default function Profile() {
                                     }}>
                                         <RoomIcon sx={{
                                             fontSize: '30px',
-                                            color: '#0066FF',
+                                            color: '#9d00ff',
                                         }} />
                                         <Typography sx={{
                                             fontSize: '20px',
@@ -105,7 +105,7 @@ export default function Profile() {
                                     }}>
                                         <EmailIcon sx={{
                                             fontSize: '30px',
-                                            color: '#0066FF',
+                                            color: '#9d00ff',
                                         }} />
                                         <Typography sx={{
                                             fontSize: '20px',
@@ -121,7 +121,7 @@ export default function Profile() {
                         </Grid>
                     </Grid>
                 </Box>
-                <Divider sx={{ width: '90%', height: '2px', backgroundColor: '#D8D8D8', }} />
+                <Divider sx={{ width: '90%', height: '1px', backgroundColor: '#05000c', }} />
             </Box>
 
 

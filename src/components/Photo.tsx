@@ -21,22 +21,30 @@ export default function Photo() {
                     width: '250px',
                     borderRadius: '100%',
                     border: '10px solid white',
-                }}/>
-                <Typography sx={{
-                    fontSize: '35px',
-                    fontWeight: 'bold',
-                    fontFamily: 'IBM Plex Sans',
+                }} />
+                <Box sx={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginBottom:'20px'
                 }}>
-                    Kevin Campos Buendia
-                </Typography>
-                <Typography sx={{
-                    fontSize: '20px',
-                    fontWeight: 'light',
-                    fontFamily: 'Roboto',
-                }}>
-                    Software Developer
-                </Typography>
-                <Divider sx={{ width: '90%', height: '2px', backgroundColor: '#D8D8D8', marginTop: '20px'}} />
+                    <Typography sx={{
+                        fontSize: '35px',
+                        fontWeight: 'bold',
+                        fontFamily: 'IBM Plex Sans',
+                    }}>
+                        Kevin Campos Buendia
+                    </Typography>
+                    <Typography sx={{
+                        fontSize: '20px',
+                        fontWeight: 'light',
+                        fontFamily: 'Roboto',
+                    }}>
+                        Software Developer
+                    </Typography>
+                </Box>
+                <Divider sx={{ width: '90%', height: '1px', backgroundColor: '#05000c'}} />
             </Box>
         </>
     );

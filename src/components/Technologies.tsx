@@ -73,7 +73,7 @@ export default function Technologies() {
                         </Box>
                     </Box>
                 </Box>
-                <Divider sx={{ width: '90%', height: '2px', backgroundColor: '#D8D8D8', }} />
+                <Divider sx={{ width: '90%', height: '1px', backgroundColor: '#05000c', }} />
             </Box>
         </>
     )
