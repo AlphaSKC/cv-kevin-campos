@@ -3,16 +3,20 @@ import EducationExperience from './components/Education&Experience';
 import Header from './components/Header';
 import Photo from './components/Photo';
 import Profile from './components/Profile';
+import Projects from './components/Projects';
 import Technologies from './components/Technologies';
 
 function App() {
   return (
     <>
-      <Header/>
-      <Photo/>
-      <Profile/>
-      <Technologies/>
-      <EducationExperience/>
+      <div className='App'>
+        <Header />
+        <Photo />
+        <Profile />
+        <Technologies />
+        <EducationExperience />
+        <Projects />
+      </div>
     </>
   );
 }

@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/cv-kevin-campos/build/static/css/main.f855e6bc.css",
-    "main.js": "/cv-kevin-campos/build/static/js/main.10039c82.js",
+    "main.css": "/cv-kevin-campos/build/static/css/main.151f7969.css",
+    "main.js": "/cv-kevin-campos/build/static/js/main.6688174f.js",
     "static/js/453.7db3baaf.chunk.js": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js",
-    "static/media/UT Cancun.jpeg": "/cv-kevin-campos/build/static/media/UT Cancun.1eac9a00de634a8fe164.jpeg",
-    "static/media/CBTIS.jpg": "/cv-kevin-campos/build/static/media/CBTIS.4e67bc41366e443f2db7.jpg",
     "static/media/Me.jpg": "/cv-kevin-campos/build/static/media/Me.4a2c8de5a6d710ed3b93.jpg",
     "static/media/Bg2.svg": "/cv-kevin-campos/build/static/media/Bg2.b643b05f2ad26e18df6d1e7f23200ca6.svg",
     "static/media/Card3.svg": "/cv-kevin-campos/build/static/media/Card3.9d07e5bb254d330d6a9c0af760ca3047.svg",
     "index.html": "/cv-kevin-campos/build/index.html",
-    "main.f855e6bc.css.map": "/cv-kevin-campos/build/static/css/main.f855e6bc.css.map",
-    "main.10039c82.js.map": "/cv-kevin-campos/build/static/js/main.10039c82.js.map",
+    "main.151f7969.css.map": "/cv-kevin-campos/build/static/css/main.151f7969.css.map",
+    "main.6688174f.js.map": "/cv-kevin-campos/build/static/js/main.6688174f.js.map",
     "453.7db3baaf.chunk.js.map": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.10039c82.js"
+    "static/css/main.151f7969.css",
+    "static/js/main.6688174f.js"
   ]
 }

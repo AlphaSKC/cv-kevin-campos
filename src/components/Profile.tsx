@@ -121,7 +121,7 @@ export default function Profile() {
                         </Grid>
                     </Grid>
                 </Box>
-                <Divider sx={{ width: '90%', height: '1px', backgroundColor: '#05000c', }} />
+                {/* <Divider sx={{ width: '90%', height: '1px', backgroundColor: '#05000c', }} /> */}
             </Box>
 
 
