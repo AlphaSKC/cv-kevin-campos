@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/cv-kevin-campos/build/static/css/main.151f7969.css",
-    "main.js": "/cv-kevin-campos/build/static/js/main.6688174f.js",
+    "main.css": "/cv-kevin-campos/build/static/css/main.d6566d52.css",
+    "main.js": "/cv-kevin-campos/build/static/js/main.728e3ba2.js",
     "static/js/453.7db3baaf.chunk.js": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js",
     "static/media/Me.jpg": "/cv-kevin-campos/build/static/media/Me.4a2c8de5a6d710ed3b93.jpg",
     "static/media/Bg2.svg": "/cv-kevin-campos/build/static/media/Bg2.b643b05f2ad26e18df6d1e7f23200ca6.svg",
+    "static/media/Prueba.svg": "/cv-kevin-campos/build/static/media/Prueba.43bbe1a47af88f5008d66b6560e9c774.svg",
     "static/media/Card3.svg": "/cv-kevin-campos/build/static/media/Card3.9d07e5bb254d330d6a9c0af760ca3047.svg",
     "index.html": "/cv-kevin-campos/build/index.html",
-    "main.151f7969.css.map": "/cv-kevin-campos/build/static/css/main.151f7969.css.map",
-    "main.6688174f.js.map": "/cv-kevin-campos/build/static/js/main.6688174f.js.map",
+    "static/media/Prueba2.svg": "/cv-kevin-campos/build/static/media/Prueba2.ce6d1d08ee395dc0efaa6c668a644259.svg",
+    "main.d6566d52.css.map": "/cv-kevin-campos/build/static/css/main.d6566d52.css.map",
+    "main.728e3ba2.js.map": "/cv-kevin-campos/build/static/js/main.728e3ba2.js.map",
     "453.7db3baaf.chunk.js.map": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.151f7969.css",
-    "static/js/main.6688174f.js"
+    "static/css/main.d6566d52.css",
+    "static/js/main.728e3ba2.js"
   ]
 }

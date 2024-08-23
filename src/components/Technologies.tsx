@@ -1,4 +1,6 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Divider, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import Fondo from '../assets/svg/Prueba.svg';
+import Fondo2 from '../assets/svg/Prueba2.svg';
 import C from "../utils/C";
 import CPlus2 from "../utils/CPlus2";
 import ReactSVG from "../utils/React";
@@ -17,7 +19,6 @@ import Mongo from "../utils/Mongo";
 import SQL from "../utils/SQL";
 import Firebase from "../utils/Firebase";
 import GitHub from "../utils/GitHub";
-import { link } from "fs";
 
 const Tecnologías = [
     {
@@ -141,7 +142,10 @@ export default function Technologies() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundColor: '#9d00ff',
+                backgroundImage: {xs: `url(${Fondo2})`, sm: `url(${Fondo})`},
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
             }}>
                 <Box sx={{
                     display: 'flex',

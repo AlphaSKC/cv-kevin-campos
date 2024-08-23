@@ -32,3 +32,169 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-main-color {
+  background-color: #641C89 !important;
+}
+
+.bg-second-color {
+  background-color: #10E5A5 !important;
+}
+
+.bg-third-color {
+  background-color: #f4f4f4 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .project {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(#a54add, #9d00ff);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 25px 25px rgba(49, 3, 71, 0.532);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin: 0 -45px;
+  backdrop-filter: blur(10px);
+  transform: rotate(calc(var(--r) * 1deg));
+}
+
+.container:hover .project {
+  transform: rotate(0deg);
+  margin: 0 10px;
+}
+
+.container .project::before {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* 
+  ========= Footer =========
+*/
+
+.txtBgFooter {
+  color: white !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+
+  &::after{
+    content: "";
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+    transition: width 0.3s ease;
+  }
+
+  &:hover::after {
+    cursor: pointer;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+    transition: width 0.3s ease;
+  }
+}
+
+/* 
+  ========= Waves Footer =========
+*/
+.boxWave{
+  position: relative;
+  width: 100%;
+  height: 120px;
+  background: white;
+  overflow: hidden;
+}
+
+.boxWave .wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./assets/img/wave2.png);
+  background-size: 1000px 100px;
+}
+
+.boxWave .wave.wave1{
+  animation: wave 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+
+.boxWave .wave.wave2{
+  animation: wave2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -10s;
+  bottom: 10px;
+}
+
+.boxWave .wave.wave3{
+  animation: wave 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -5s;
+  bottom: 15px;
+}
+
+.boxWave .wave.wave4{
+  animation: wave2 15s linear infinite;
+  z-index: 997;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+

@@ -1,5 +1,6 @@
 import './App.css';
 import EducationExperience from './components/Education&Experience';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Photo from './components/Photo';
 import Profile from './components/Profile';
@@ -16,6 +17,7 @@ function App() {
         <Technologies />
         <EducationExperience />
         <Projects />
+        <Footer/>
       </div>
     </>
   );
