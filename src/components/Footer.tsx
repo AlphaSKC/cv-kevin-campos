@@ -4,11 +4,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
-import logo from '../assets/img/UT Logo.jpeg';
-
 export default function Footer() {
     return (
-        <Box component="footer" paddingTop={20}>
+        <Box component="footer" paddingTop={10}>
             {/* Waves */}
             <Box className="boxWave">
                 <Box className="wave wave1"></Box>

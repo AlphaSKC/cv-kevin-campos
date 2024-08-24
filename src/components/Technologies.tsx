@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import Fondo from '../assets/svg/Prueba.svg';
-import Fondo2 from '../assets/svg/Prueba2.svg';
+import Fondo from '../assets/svg/Bg5.svg';
+import Fondo2 from '../assets/svg/Bg6.svg';
 import C from "../utils/C";
 import CPlus2 from "../utils/CPlus2";
 import ReactSVG from "../utils/React";
@@ -19,6 +19,10 @@ import Mongo from "../utils/Mongo";
 import SQL from "../utils/SQL";
 import Firebase from "../utils/Firebase";
 import GitHub from "../utils/GitHub";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 const Tecnologías = [
     {
@@ -135,6 +139,7 @@ const ComponentMap: Record<string, React.ComponentType> = {
 };
 
 export default function Technologies() {
+
     return (
         <>
             <Box sx={{
@@ -142,7 +147,7 @@ export default function Technologies() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                backgroundImage: {xs: `url(${Fondo2})`, sm: `url(${Fondo})`},
+                backgroundImage: `url(${Fondo})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -167,7 +172,7 @@ export default function Technologies() {
                             Tecnologías
                         </Typography>
                         <Box sx={{
-                            display: 'flex',
+                            display: { xs: 'none', md: 'flex' },
                             flexWrap: 'wrap',
                             justifyContent: 'center',
                             gap: '20px',
@@ -177,9 +182,6 @@ export default function Technologies() {
                                 return (
                                     <Box key={tecnologia.id} sx={{
                                         display: 'flex',
-                                        flexDirection: 'column',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
                                         padding: '20px',
                                         backgroundColor: 'whitesmoke',
                                         borderRadius: '10px',
@@ -191,32 +193,55 @@ export default function Technologies() {
                                         onClick={() => window.open(tecnologia.link, '_blank')}
                                     >
                                         <Component />
-
                                     </Box>
                                 );
                             })}
-                            {/* <HTML />
-                            <CSS />
-                            <JS />
-                            <TS />
-                            <C />
-                            <CPlus2 />
-                            <PHP />
-                            <Java />
-                            <Dart />
-                            <ReactSVG />
-                            <Vue />
-                            <Flutter />
-                            <Laravel />
-                            <SQLServer />
-                            <SQL />
-                            <Mongo />
-                            <Firebase />
-                            <GitHub /> */}
+                        </Box>
+                        <Box sx={{
+                            display: { xs: 'flex', md: 'none' },
+                        }}>
+                            <Swiper
+                                spaceBetween={30}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 3,
+                                    },
+                                    768: {
+                                        slidesPerView: 5,
+                                    },
+                                }}
+                                modules={[Pagination]}
+                                
+                            >
+                                {Tecnologías.map((tecnologia) => {
+                                    const Component = ComponentMap[tecnologia.name];
+                                    return (
+                                        <SwiperSlide>
+                                            <Box key={tecnologia.id} sx={{
+                                                display: 'flex',
+                                                justifyContent: 'center',
+                                                padding: '20px',
+                                                backgroundColor: 'whitesmoke',
+                                                borderRadius: '10px',
+                                                cursor: 'pointer',
+                                                ":hover": {
+                                                    backgroundColor: 'lightgray',
+                                                }
+                                            }}
+                                                onClick={() => window.open(tecnologia.link, '_blank')}
+                                            >
+                                                <Component />
+                                            </Box>
+                                        </SwiperSlide>
+                                    );
+                                })}
+                            </Swiper>
                         </Box>
                     </Box>
                 </Box>
-                {/* <Divider sx={{ width: '90%', height: '1px', backgroundColor: '#05000c', }} /> */}
             </Box>
         </>
     )

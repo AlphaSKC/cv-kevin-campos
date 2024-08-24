@@ -1,4 +1,6 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
+import Fondo from '../assets/svg/Bg3.svg';
+import Fondo2 from '../assets/svg/Bg4.svg';
 
 interface ProjectProps {
     text: string;
@@ -22,6 +24,10 @@ export default function Projects() {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
+                backgroundImage: {xs: `url(${Fondo2})`, md: `url(${Fondo})`},
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
             }}>
                 <Box sx={{
                     display: 'flex',
@@ -41,8 +47,83 @@ export default function Projects() {
                         }}>
                             Proyectos destacados
                         </Typography>
+                        <Grid container>
+                            <Grid item xs={12} sm={12} md={4} lg={4} sx={{
+                                padding: '20px',
+                            }}>
+                                <Box className="flip-card">
+                                    <Box className="flip-card-inner">
+                                        <Box className="flip-card-front">
+                                            <Typography>
+                                                Flip Card
+                                            </Typography>
+                                            <Typography>
+                                                Hover Me
+                                            </Typography>
+                                        </Box>
+                                        <Box className="flip-card-back">
+                                            <Typography className="title">
+                                                Back
+                                            </Typography>
+                                            <Typography>
+                                                Leave Me
+                                            </Typography>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} sm={12} md={4} lg={4} sx={{
+                                padding: '20px',
+                            }}>
+                                <Box className="flip-card">
+                                    <Box className="flip-card-inner">
+                                        <Box className="flip-card-front">
+                                            <Typography className="title">
+                                                Flip Card
+                                            </Typography>
+                                            <Typography>
+                                                Hover Me
+                                            </Typography>
+                                        </Box>
+                                        <Box className="flip-card-back">
+                                            <Typography className="title">
+                                                Back
+                                            </Typography>
+                                            <Typography>
+                                                Leave Me
+                                            </Typography>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} sm={12} md={4} lg={4} sx={{
+                                padding: '20px',
+                            }}>
+                                <Box className="flip-card">
+                                    <Box className="flip-card-inner">
+                                        <Box className="flip-card-front">
+                                            <Typography>
+                                                Flip Card
+                                            </Typography>
+                                            <Typography>
+                                                Hover Me
+                                            </Typography>
+                                        </Box>
+                                        <Box className="flip-card-back">
+                                            <Typography>
+                                                Back
+                                            </Typography>
+                                            <Typography>
+                                                Leave Me
+                                            </Typography>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </Grid>
+                        </Grid>
 
-                        <Box className="container">
+
+                        {/* <Box className="container">
                             <Project text="Chronos" rotation={-15}>
                                 <Typography>
                                     Github
@@ -58,7 +139,7 @@ export default function Projects() {
                                     Zonas A
                                 </Typography>
                             </Project>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Box>
             </Box>

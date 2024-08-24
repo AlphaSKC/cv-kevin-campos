@@ -32,9 +32,12 @@ export default function EducationExperience() {
                             Educación y Experiencia
                         </Typography>
                         <Grid container sx={{
+                            justifyContent: 'center',
+                            alignItems: 'center',
                             marginTop: '70px',
-                        }}>
-                            <Grid item xs={12} sm={6} md={3} lg={3} sx={{ padding: { xs: '20px 20px', md: '0 20px' } }}>
+                        }}
+                        >
+                            <Grid item xs={12} sm={6} md={3} sx={{ padding: { xs: '20px 20px', md: '0 20px'}}}>
                                 <Card sx={{
                                     maxWidth: 345,
                                     minHeight: 245,
@@ -91,7 +94,7 @@ export default function EducationExperience() {
                                     </CardContent>
                                 </Card>
                             </Grid>
-                            <Grid item xs={12} sm={6} md={3} lg={3} sx={{ padding: { xs: '60px 20px', md: '0 20px' } }}>
+                            <Grid item xs={12} sm={6} md={3} sx={{ padding: { xs: '60px 20px', sm:'20px 20px', md: '0 20px' } }}>
                                 <Card sx={{
                                     maxWidth: 345,
                                     minHeight: 245,
@@ -148,7 +151,7 @@ export default function EducationExperience() {
                                     </CardContent>
                                 </Card>
                             </Grid>
-                            <Grid item xs={12} sm={6} md={3} lg={3} sx={{ padding: { xs: '20px 20px', md: '0 20px' } }}>
+                            <Grid item xs={12} sm={6} md={3} sx={{ padding: { xs: '20px 20px', sm:'60px 20px', md: '0 20px' } }}>
                                 <Card sx={{
                                     maxWidth: 345,
                                     minHeight: 245,
@@ -208,7 +211,7 @@ export default function EducationExperience() {
 
                                 </Card>
                             </Grid>
-                            <Grid item xs={12} sm={6} md={3} lg={3} sx={{ padding: { xs: '60px 20px 20px 20px', md: '0 20px' } }}>
+                            <Grid item xs={12} sm={6} md={3} sx={{ padding: { xs: '60px 20px 0', sm:'60px 20px', md: '0 20px' } }}>
                                 <Card sx={{
                                     maxWidth: 345,
                                     minHeight: 245,
