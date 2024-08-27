@@ -1,4 +1,4 @@
-import { Avatar, Box, Card, CardContent, Divider, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Card, CardContent, Grid, Typography } from "@mui/material";
 import CBTIS from '../assets/img/CBTIS Logo.png'
 import UT from '../assets/img/UT Logo.jpeg'
 import Ozelot from '../assets/img/Ozelot.png'

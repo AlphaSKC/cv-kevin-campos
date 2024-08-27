@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import Fondo from '../assets/svg/Bg5.svg';
-import Fondo2 from '../assets/svg/Bg6.svg';
 import C from "../utils/C";
 import CPlus2 from "../utils/CPlus2";
 import ReactSVG from "../utils/React";
@@ -214,13 +213,12 @@ export default function Technologies() {
                                     },
                                 }}
                                 modules={[Pagination]}
-                                
                             >
                                 {Tecnologías.map((tecnologia) => {
                                     const Component = ComponentMap[tecnologia.name];
                                     return (
-                                        <SwiperSlide>
-                                            <Box key={tecnologia.id} sx={{
+                                        <SwiperSlide key={tecnologia.id}>
+                                            <Box sx={{
                                                 display: 'flex',
                                                 justifyContent: 'center',
                                                 padding: '20px',
