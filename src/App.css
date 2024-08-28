@@ -34,7 +34,7 @@
 }
 
 .bg-main-color {
-  background-color: #9d00ff !important;
+  background-color: #800EC4!important;
 }
 
 .bg-second-color {
@@ -49,6 +49,17 @@
   background-color: #fff !important;
 }
 
+.image-gallery-icon {
+  color: #9d00ff !important;
+  size: 5px !important;
+}
+
+.image-gallery-bullet {
+  background-color: #9d00ff !important;
+}
+.image-gallery-bullet.active {
+  background-color: white !important;
+}
 /* 
   ========= Swiper =========
 */
@@ -122,6 +133,7 @@
 }
 
 .flip-card-back {
+  height: 100%;
   background-color: black;
   color: white;
   transform: rotateY(180deg);

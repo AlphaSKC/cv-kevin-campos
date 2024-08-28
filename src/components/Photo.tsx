@@ -27,12 +27,14 @@ export default function Photo() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    marginBottom:'20px'
+                    paddingX: '20px',
+                    marginBottom: '20px',
                 }}>
                     <Typography sx={{
                         fontSize: '35px',
                         fontWeight: 'bold',
                         fontFamily: 'IBM Plex Sans',
+                        textAlign: 'center',
                     }}>
                         Kevin Campos Buendia
                     </Typography>
