@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-kevin-campos/build/static/css/main.4bb4aa7a.css",
-    "main.js": "/cv-kevin-campos/build/static/js/main.280de6fc.js",
+    "main.js": "/cv-kevin-campos/build/static/js/main.2209ed42.js",
     "static/js/453.7db3baaf.chunk.js": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js",
     "static/media/8.png": "/cv-kevin-campos/build/static/media/8.261ced181541826d6c29.png",
     "static/media/2.png": "/cv-kevin-campos/build/static/media/2.e1e43d378348f29db20d.png",
@@ -9,17 +9,17 @@
     "static/media/5.png": "/cv-kevin-campos/build/static/media/5.b8e4e0259052f811d2f0.png",
     "static/media/7.png": "/cv-kevin-campos/build/static/media/7.9e643cf24164526246d6.png",
     "static/media/1.png": "/cv-kevin-campos/build/static/media/1.677542ed6e713d4a7f4e.png",
+    "static/media/5.jpg": "/cv-kevin-campos/build/static/media/5.44522fdd1246f3ab9858.jpg",
+    "static/media/4.jpg": "/cv-kevin-campos/build/static/media/4.fe78f5fcd14d7339a202.jpg",
+    "static/media/2.jpg": "/cv-kevin-campos/build/static/media/2.7115efa0b534dedc2887.jpg",
+    "static/media/1.jpg": "/cv-kevin-campos/build/static/media/1.18c0a8918d3cfed44e17.jpg",
     "static/media/6.png": "/cv-kevin-campos/build/static/media/6.66099be5e000d64581c9.png",
     "static/media/4.png": "/cv-kevin-campos/build/static/media/4.9c2485ba10683cd84b02.png",
-    "static/media/1.jpg": "/cv-kevin-campos/build/static/media/1.18c0a8918d3cfed44e17.jpg",
     "static/media/Me.jpg": "/cv-kevin-campos/build/static/media/Me.4a2c8de5a6d710ed3b93.jpg",
-    "static/media/7.jpg": "/cv-kevin-campos/build/static/media/7.d0057886c1452b5369c6.jpg",
-    "static/media/4.jpg": "/cv-kevin-campos/build/static/media/4.fe78f5fcd14d7339a202.jpg",
-    "static/media/6.jpg": "/cv-kevin-campos/build/static/media/6.4de753542ecbf1583bec.jpg",
     "static/media/3.jpg": "/cv-kevin-campos/build/static/media/3.9e5970d470d13cafc3c9.jpg",
-    "static/media/5.jpg": "/cv-kevin-campos/build/static/media/5.44522fdd1246f3ab9858.jpg",
+    "static/media/7.jpg": "/cv-kevin-campos/build/static/media/7.d0057886c1452b5369c6.jpg",
+    "static/media/6.jpg": "/cv-kevin-campos/build/static/media/6.4de753542ecbf1583bec.jpg",
     "static/media/8.jpg": "/cv-kevin-campos/build/static/media/8.839e2c21edbc2f4ee759.jpg",
-    "static/media/2.jpg": "/cv-kevin-campos/build/static/media/2.7115efa0b534dedc2887.jpg",
     "static/media/Urbanix.png": "/cv-kevin-campos/build/static/media/Urbanix.efbebf80c84e2347a49d.png",
     "static/media/Chronos.png": "/cv-kevin-campos/build/static/media/Chronos.bd68899b822eb881e314.png",
     "static/media/Bg2.svg": "/cv-kevin-campos/build/static/media/Bg2.b643b05f2ad26e18df6d1e7f23200ca6.svg",
@@ -30,11 +30,11 @@
     "index.html": "/cv-kevin-campos/build/index.html",
     "static/media/Bg4.svg": "/cv-kevin-campos/build/static/media/Bg4.86a39dcafb0a998e64919ffe3202b064.svg",
     "main.4bb4aa7a.css.map": "/cv-kevin-campos/build/static/css/main.4bb4aa7a.css.map",
-    "main.280de6fc.js.map": "/cv-kevin-campos/build/static/js/main.280de6fc.js.map",
+    "main.2209ed42.js.map": "/cv-kevin-campos/build/static/js/main.2209ed42.js.map",
     "453.7db3baaf.chunk.js.map": "/cv-kevin-campos/build/static/js/453.7db3baaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bb4aa7a.css",
-    "static/js/main.280de6fc.js"
+    "static/js/main.2209ed42.js"
   ]
 }

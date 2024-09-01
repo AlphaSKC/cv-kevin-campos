@@ -24,6 +24,11 @@ import Chronos5 from '../assets/img/Chronos/5.jpg';
 import Chronos6 from '../assets/img/Chronos/6.jpg';
 import Chronos7 from '../assets/img/Chronos/7.jpg';
 import Chronos8 from '../assets/img/Chronos/8.jpg';
+import Zonas1 from '../assets/img/Zonas/1.jpg';
+import Zonas2 from '../assets/img/Zonas/2.jpg';
+import Zonas3 from '../assets/img/Zonas/3.jpg';
+import Zonas4 from '../assets/img/Zonas/4.jpg';
+import Zonas5 from '../assets/img/Zonas/5.jpg';
 
 interface Project {
     id: number;
@@ -125,16 +130,24 @@ const projects = [
         width: '200px',
         images: [
             {
-                original: 'https://picsum.photos/id/1018/1000/600/',
-                thumbnail: 'https://picsum.photos/id/1018/250/150/',
+                original: Zonas1,
+                thumbnail: Zonas1,
             },
             {
-                original: 'https://picsum.photos/id/1015/1000/600/',
-                thumbnail: 'https://picsum.photos/id/1015/250/150/',
+                original: Zonas2,
+                thumbnail: Zonas2,
             },
             {
-                original: 'https://picsum.photos/id/1019/1000/600/',
-                thumbnail: 'https://picsum.photos/id/1019/250/150/',
+                original: Zonas3,
+                thumbnail: Zonas3,
+            },
+            {
+                original: Zonas4,
+                thumbnail: Zonas4,
+            },
+            {
+                original: Zonas5,
+                thumbnail: Zonas5,
             }
         ]
     }
